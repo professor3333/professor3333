@@ -84,7 +84,7 @@ A system in development to estimate which job postings will disappear from a boa
 
 ## Where I'm headed
 
-I'm targeting **junior Machine Learning Engineer roles** where I can contribute to data pipelines, model evaluation, and deployed ML services while learning from an experienced team.
+I'm targeting **Machine Learning Engineer roles** where I can contribute to data pipelines, model evaluation, and deployed ML services while learning from an experienced team.
 
 My current interests are computer vision with human review, dependable inference services, and MLOps: connecting model quality to release decisions, observability, and retraining.
 
