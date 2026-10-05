@@ -6,44 +6,24 @@
 
 <!-- Optional: add [Portfolio](https://YOUR-PORTFOLIO-URL) above when ready. -->
 
-![Python](https://img.shields.io/badge/Python-334155?style=flat&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-334155?style=flat&logo=pytorch&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-334155?style=flat&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-334155?style=flat&logo=docker&logoColor=white)
-
-## About
-
-Software Engineering graduate from **Nepal College of Information Technology**, focused on Machine Learning Engineering and MLOps. I build production-oriented ML systems spanning data pipelines, model evaluation, inference APIs, deployment, and monitoring, with an emphasis on reproducibility and documented engineering decisions.
-
-**Current focus:** Building WildInbox, with an emphasis on computer vision evaluation, uncertainty-aware review workflows, and model monitoring.
+Software Engineering graduate (Nepal College of Information Technology) focused on ML engineering and MLOps. I build end-to-end systems (data pipelines, evaluation, inference APIs, deployment, monitoring) with honest evaluation and reproducibility.
 
 ## Selected projects
 
-### [WildInbox](https://github.com/professor3333/wildinbox)
+| Project | What it is | Result |
+| --- | --- | --- |
+| [**WildInbox**](https://github.com/professor3333/wildinbox) | Trail-camera review: groups captures into events, suggests species, routes uncertain events to people. PyTorch, FastAPI, async workers. | **61.4% fewer review items** on unseen cameras ([evaluation](https://github.com/professor3333/wildinbox/blob/main/reports/final_evaluation/README.md)) |
+| [**NYC Taxi Trip Duration**](https://github.com/professor3333/nyc-taxi-trip-duration) | Trip-duration API on AWS Lambda with DVC pipelines and MLflow model management. | **8.2% lower MAE** over 23 monthly backtests vs. a zone-pair median ([backtests](https://github.com/professor3333/nyc-taxi-trip-duration/blob/main/docs/backtest.md)) |
+| [**Fraud Risk Scoring**](https://github.com/professor3333/fraud-risk-scoring) | Calibrated XGBoost with temporal evaluation and a capacity-limited analyst workflow. FastAPI serving. | Prediction auditing and training-serving checks ([model card](https://github.com/professor3333/fraud-risk-scoring/blob/main/docs/model_card.md)) |
 
-Trail-camera review system built with PyTorch, FastAPI, and asynchronous workers. Groups captures into events, producing **61.4% fewer review items** on unseen-camera test data while retaining human review for every event. Includes versioned releases, monitoring, and rollback. [Evaluation report](https://github.com/professor3333/wildinbox/blob/main/reports/final_evaluation/README.md)
-
-### [NYC Taxi Trip Duration](https://github.com/professor3333/nyc-taxi-trip-duration)
-
-Prediction API deployed on AWS Lambda, with DVC pipelines, MLflow model management, and automated deployment checks. Achieved **8.2% lower MAE on average across 23 historical monthly backtests** against a zone-pair median baseline. [Backtest results](https://github.com/professor3333/nyc-taxi-trip-duration/blob/main/docs/backtest.md)
-
-### [Fraud Risk Scoring](https://github.com/professor3333/fraud-risk-scoring)
-
-Calibrated XGBoost scoring with temporal evaluation, FastAPI serving, and a simulated analyst workflow constrained by daily review capacity. Includes prediction auditing and training-to-serving consistency checks. [Model card](https://github.com/professor3333/fraud-risk-scoring/blob/main/docs/model_card.md)
-
-## In progress
-
-**[Shelf Life](https://github.com/professor3333/shelf-life)** — Seven-day job-posting removal prediction using self-collected longitudinal data and temporal evaluation. Model release is gated on sufficient labeled history. [Readiness report](https://github.com/professor3333/shelf-life/blob/main/reports/readiness.md)
+**In progress:** [BeltWatch](https://github.com/professor3333/beltwatch) (recycling-conveyor segmentation and audit service; full-data training underway) · [PassageWatch](https://github.com/professor3333/passagewatch) (sonar fish-passage counting; release 0.3.0 evaluated, usability study remaining) · [Shelf Life](https://github.com/professor3333/shelf-life) (job-posting removal prediction; release waits for enough labelled history)
 
 ## Tech stack
 
 | Area | Technologies |
 | --- | --- |
-| Languages & data | Python, SQL, pandas, NumPy |
 | Machine learning | PyTorch, scikit-learn, XGBoost |
-| Backend & serving | FastAPI, PostgreSQL, Redis, Streamlit |
-| MLOps & engineering | MLflow, DVC, Docker, AWS, GitHub Actions, Git, pytest |
+| Serving & data | FastAPI, PostgreSQL, Redis, Streamlit, SQL, pandas |
+| MLOps | MLflow, DVC, Docker, AWS, GitHub Actions, pytest |
 
----
-
-Open to **Machine Learning Engineer opportunities** in model evaluation, inference systems, and MLOps.
+Open to **Machine Learning Engineer** roles in model evaluation, inference systems, and MLOps.
