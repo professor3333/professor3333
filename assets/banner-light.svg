@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-labelledby="t d">
+  <title id="t">Niroj Danai, Machine Learning Engineer</title>
+  <desc id="d">Banner with name, focus areas and a reliability diagram showing a calibrated model.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#f1f5f9"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#0f766e" stop-opacity="0.10"/><stop offset="1" stop-color="#0f766e" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#0f172a" fill-opacity="0.05"/>
+    </pattern>
+    <clipPath id="card"><rect x="1" y="1" width="1198" height="298" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="1200" height="300" fill="url(#bg)"/>
+    <rect width="1200" height="300" fill="url(#dots)"/>
+    <ellipse cx="1003.0" cy="150.0" rx="330" ry="250" fill="url(#glow)"/>
+  </g>
+  <rect x="1" y="1" width="1198" height="298" rx="18" fill="none" stroke="#d5dde8" stroke-width="1.5"/>
+
+  <rect x="64" y="58" width="34" height="4" rx="2" fill="#0f766e"/>
+  <text x="64" y="94" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="15" font-weight="600" letter-spacing="3.2" fill="#0f766e">MACHINE LEARNING ENGINEER</text>
+  <text x="62" y="156" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-1.2" fill="#0f172a">Niroj Danai</text>
+  <text x="64" y="198" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="21" fill="#475569">End-to-end ML systems, measured on data they have never seen.</text>
+  <rect x="64" y="226" width="158" height="34" rx="17" fill="#0f172a" fill-opacity="0.03" stroke="#cbd5e1"/><text x="143.0" y="248" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#334155">Computer vision</text><rect x="234" y="226" width="66" height="34" rx="17" fill="#0f172a" fill-opacity="0.03" stroke="#cbd5e1"/><text x="267.0" y="248" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#334155">NLP</text><rect x="312" y="226" width="118" height="34" rx="17" fill="#0f172a" fill-opacity="0.03" stroke="#cbd5e1"/><text x="371.0" y="248" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#334155">Tabular ML</text><rect x="442" y="226" width="82" height="34" rx="17" fill="#0f172a" fill-opacity="0.03" stroke="#cbd5e1"/><text x="483.0" y="248" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#334155">MLOps</text>
+
+  <g>
+    <line x1="905" y1="199.0" x2="1101" y2="199.0" stroke="#b6c2d2" stroke-width="1" opacity="0.35"/>
+    <line x1="905" y1="150.0" x2="1101" y2="150.0" stroke="#b6c2d2" stroke-width="1" opacity="0.35"/>
+    <line x1="905" y1="101.0" x2="1101" y2="101.0" stroke="#b6c2d2" stroke-width="1" opacity="0.35"/>
+    <line x1="905" y1="52.0" x2="1101" y2="52.0" stroke="#b6c2d2" stroke-width="1" opacity="0.35"/>
+    <rect x="908.0" y="204.3" width="13.6" height="43.7" rx="2" fill="#0f766e" opacity="0.14"/>
+    <rect x="927.6" y="219.5" width="13.6" height="28.5" rx="2" fill="#0f766e" opacity="0.14"/>
+    <rect x="947.2" y="229.6" width="13.6" height="18.4" rx="2" fill="#0f766e" opacity="0.14"/>
+    <rect x="966.8" y="235.6" width="13.6" height="12.4" rx="2" fill="#0f766e" opacity="0.14"/>
+    <rect x="986.4" y="239.3" width="13.6" height="8.7" rx="2" fill="#0f766e" opacity="0.14"/>
+    <rect x="1006.0" y="241.6" width="13.6" height="6.4" rx="2" fill="#0f766e" opacity="0.14"/>
+    <rect x="1025.6" y="242.9" width="13.6" height="5.1" rx="2" fill="#0f766e" opacity="0.14"/>
+    <rect x="1045.2" y="243.9" width="13.6" height="4.1" rx="2" fill="#0f766e" opacity="0.14"/>
+    <rect x="1064.8" y="244.3" width="13.6" height="3.7" rx="2" fill="#0f766e" opacity="0.14"/>
+    <rect x="1084.4" y="243.4" width="13.6" height="4.6" rx="2" fill="#0f766e" opacity="0.14"/>
+    <line x1="905" y1="248" x2="1101" y2="52" stroke="#7a8aa0" stroke-width="1.6" stroke-dasharray="5 6"/>
+    <path d="M914.8,242.1 L934.4,226.4 L954.0,201.0 L973.6,173.5 L993.2,157.8 L1012.8,132.4 L1032.4,118.6 L1052.0,104.9 L1071.6,75.5 L1091.2,61.8" fill="none" stroke="#0f766e" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="914.8" cy="242.1" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle cx="934.4" cy="226.4" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle cx="954.0" cy="201.0" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle cx="973.6" cy="173.5" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle cx="993.2" cy="157.8" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle cx="1012.8" cy="132.4" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle cx="1032.4" cy="118.6" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle cx="1052.0" cy="104.9" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle cx="1071.6" cy="75.5" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle cx="1091.2" cy="61.8" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <path d="M905,52 L905,248 L1101,248" fill="none" stroke="#b6c2d2" stroke-width="1.6" stroke-linecap="round"/>
+    <text x="1003.0" y="272" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1" fill="#7a8aa0">predicted probability</text>
+    <text transform="translate(889,150.0) rotate(-90)" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1" fill="#7a8aa0">observed rate</text>
+  </g>
+</svg>
