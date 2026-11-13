@@ -161,10 +161,6 @@ Audits paper-recycling conveyor lines for cardboard, plastic and metal contamina
 
 **Bachelor of Engineering, Software Engineering**, Nepal College of Information Technology (2022 to 2026)
 
-## Get in touch
-
-I'm looking for a Machine Learning Engineer or Applied ML Engineer role, remote or on-site with relocation. If you're hiring, or want to talk through how any of these systems were built and evaluated, I'd be glad to hear from you.
-
 <!--
   Add your contact links, then delete the comment markers around this block.
 
