@@ -17,7 +17,7 @@ I'm a software engineering graduate based in Kathmandu, Nepal. I build machine l
 
 My projects cover computer vision, NLP and tabular ML, and they share one habit. Models are tested on data they have never seen: a later month, a new camera, a different site. Targets are written down before the test set is opened, and when a model misses one, the README says so and the automation stays switched off.
 
-**Open to Machine Learning Engineer and Applied ML Engineer roles, remote or on-site, and open to relocation.**
+**Open to Machine Learning Engineer and Applied ML Engineer roles, remote or on-site.**
 
 ## Featured work
 
