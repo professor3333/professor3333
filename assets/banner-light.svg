@@ -13,6 +13,7 @@
     </pattern>
     <clipPath id="card"><rect x="1" y="1" width="1198" height="298" rx="18"/></clipPath>
   </defs>
+  <style>@media (prefers-reduced-motion:no-preference){.cv{animation:dr 1.8s .3s cubic-bezier(.4,0,.2,1) both}.pt{animation:fd .5s both}}@keyframes dr{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}@keyframes fd{from{opacity:0}to{opacity:1}}</style>
   <g clip-path="url(#card)">
     <rect width="1200" height="300" fill="url(#bg)"/>
     <rect width="1200" height="300" fill="url(#dots)"/>
@@ -42,17 +43,17 @@
     <rect x="1064.8" y="244.3" width="13.6" height="3.7" rx="2" fill="#0f766e" opacity="0.14"/>
     <rect x="1084.4" y="243.4" width="13.6" height="4.6" rx="2" fill="#0f766e" opacity="0.14"/>
     <line x1="905" y1="248" x2="1101" y2="52" stroke="#7a8aa0" stroke-width="1.6" stroke-dasharray="5 6"/>
-    <path d="M914.8,242.1 L934.4,226.4 L954.0,201.0 L973.6,173.5 L993.2,157.8 L1012.8,132.4 L1032.4,118.6 L1052.0,104.9 L1071.6,75.5 L1091.2,61.8" fill="none" stroke="#0f766e" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
-    <circle cx="914.8" cy="242.1" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
-    <circle cx="934.4" cy="226.4" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
-    <circle cx="954.0" cy="201.0" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
-    <circle cx="973.6" cy="173.5" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
-    <circle cx="993.2" cy="157.8" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
-    <circle cx="1012.8" cy="132.4" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
-    <circle cx="1032.4" cy="118.6" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
-    <circle cx="1052.0" cy="104.9" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
-    <circle cx="1071.6" cy="75.5" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
-    <circle cx="1091.2" cy="61.8" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <path class="cv" pathLength="1" stroke-dasharray="1" d="M914.8,242.1 L934.4,226.4 L954.0,201.0 L973.6,173.5 L993.2,157.8 L1012.8,132.4 L1032.4,118.6 L1052.0,104.9 L1071.6,75.5 L1091.2,61.8" fill="none" stroke="#0f766e" stroke-width="2.8" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle class="pt" style="animation-delay:0.45s" cx="914.8" cy="242.1" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle class="pt" style="animation-delay:0.62s" cx="934.4" cy="226.4" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle class="pt" style="animation-delay:0.79s" cx="954.0" cy="201.0" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle class="pt" style="animation-delay:0.96s" cx="973.6" cy="173.5" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle class="pt" style="animation-delay:1.13s" cx="993.2" cy="157.8" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle class="pt" style="animation-delay:1.30s" cx="1012.8" cy="132.4" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle class="pt" style="animation-delay:1.47s" cx="1032.4" cy="118.6" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle class="pt" style="animation-delay:1.64s" cx="1052.0" cy="104.9" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle class="pt" style="animation-delay:1.81s" cx="1071.6" cy="75.5" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
+    <circle class="pt" style="animation-delay:1.98s" cx="1091.2" cy="61.8" r="4.2" fill="#ffffff" stroke="#0f766e" stroke-width="2.2"/>
     <path d="M905,52 L905,248 L1101,248" fill="none" stroke="#b6c2d2" stroke-width="1.6" stroke-linecap="round"/>
     <text x="1003.0" y="272" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1" fill="#7a8aa0">predicted probability</text>
     <text transform="translate(889,150.0) rotate(-90)" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, 'Liberation Mono', monospace" font-size="12" letter-spacing="1" fill="#7a8aa0">observed rate</text>

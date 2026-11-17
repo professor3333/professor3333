@@ -4,7 +4,9 @@
   <img src="assets/banner-dark.svg" width="100%" alt="Niroj Danai, Machine Learning Engineer. End-to-end ML systems, measured on data they have never seen.">
 </picture>
 
-Software engineering graduate (B.E., Nepal College of Information Technology, 2026) based in Kathmandu, Nepal. I build machine learning systems end to end, from data pipeline to deployed API, and test them on data they have never seen: a later month, a new camera, a different site. When a model misses its target, the README says so.
+I build machine learning systems from data pipeline to deployed API, then test them on data they have never seen. When a model misses its target, the README says so.
+
+<sub>B.E. Software Engineering, Nepal College of Information Technology, 2026 &nbsp;·&nbsp; Kathmandu, Nepal</sub>
 
 **Open to Machine Learning Engineer and Applied ML Engineer roles, remote or on-site.**
 
@@ -19,47 +21,82 @@ Software engineering graduate (B.E., Nepal College of Information Technology, 20
 
 ## Featured work
 
-### [ProtocolLedger](https://github.com/professor3333/ProtocolLedger)
-<sup>NLP &nbsp;·&nbsp; information extraction &nbsp;·&nbsp; <a href="https://44.222.11.189.sslip.io"><b>Live demo</b></a></sup>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/professor3333/ProtocolLedger"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-protocolledger-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-protocolledger-light.svg">
+  <img src="assets/card-protocolledger-dark.svg" width="100%" alt="ProtocolLedger: 0.766 entity F1 on WNUT-2020, against 0.703 for a CRF baseline. Relation F1 0.580 against 0.504.">
+</picture></a>
+<b><a href="https://github.com/professor3333/ProtocolLedger">ProtocolLedger</a></b> &nbsp;·&nbsp; <a href="https://44.222.11.189.sslip.io">Live demo</a><br>
+Turns free-text lab protocols into an editable prep sheet, with every value linked to its source text.
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/professor3333/fraud-risk-scoring"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-fraud-risk-scoring-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-fraud-risk-scoring-light.svg">
+  <img src="assets/card-fraud-risk-scoring-dark.svg" width="100%" alt="Fraud Risk Scoring: 0.907 ROC-AUC on a held-out later month, at 43% lower cost than approving everything.">
+</picture></a>
+<b><a href="https://github.com/professor3333/fraud-risk-scoring">Fraud Risk Scoring</a></b> &nbsp;·&nbsp; <a href="https://fraud-risk-scoring-m1fp.onrender.com">Live dashboard</a><br>
+Calibrated fraud scores that approve, review or block within an analyst team's daily budget.
+</td>
+</tr>
+</table>
 
-Turns free-text lab protocols into an editable preparation sheet, with every extracted value linked back to its source text. A SciBERT span-and-relation model reaches **0.766 entity F1** and **0.580 end-to-end relation F1** on WNUT-2020, ahead of a CRF baseline at 0.504.
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/professor3333/wildinbox"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-wildinbox-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-wildinbox-light.svg">
+  <img src="assets/card-wildinbox-dark.svg" width="100%" alt="WildInbox: 0.447 macro-F1 on nine unseen cameras, against 0.285 for the frozen baseline. Grouping alone cuts the review queue by 61.4%.">
+</picture></a>
+<b><a href="https://github.com/professor3333/wildinbox">WildInbox</a></b><br>
+A review inbox for trail-camera photos: groups shots into capture events and suggests a species for each.
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/professor3333/passagewatch"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-passagewatch-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-passagewatch-light.svg">
+  <img src="assets/card-passagewatch-dark.svg" width="100%" alt="PassageWatch: 0.213 count error (nMAE) across four unseen locations, against 0.388 for a tuned classical baseline. Lower is better.">
+</picture></a>
+<b><a href="https://github.com/professor3333/passagewatch">PassageWatch</a></b><br>
+Counts fish moving upstream and downstream in sonar video, keeping the evidence behind every count.
+</td>
+</tr>
+</table>
 
-<sub><code>PyTorch</code> <code>Transformers</code> <code>ONNX Runtime</code> <code>FastAPI</code> <code>Docker</code></sub>
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/professor3333/shelf-life"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-shelf-life-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-shelf-life-light.svg">
+  <img src="assets/card-shelf-life-dark.svg" width="100%" alt="Shelf Life: 75% of its daily shortlist were real removals on held-out days, 6.8 times the unaided hit rate.">
+</picture></a>
+<b><a href="https://github.com/professor3333/shelf-life">Shelf Life</a></b> &nbsp;·&nbsp; <a href="https://shelf-life-2l8tanmdatboms9mhxh3rj.streamlit.app/">Live app</a><br>
+Predicts which job postings come down within seven days, trained on a panel I scraped from seven job boards.
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/professor3333/beltwatch"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/card-beltwatch-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/card-beltwatch-light.svg">
+  <img src="assets/card-beltwatch-dark.svg" width="100%" alt="BeltWatch, in development: 0.336 foreground macro IoU with SegFormer-B0, against 0.152 for a tuned random forest.">
+</picture></a>
+<b><a href="https://github.com/professor3333/beltwatch">BeltWatch</a></b><br>
+Segments cardboard, plastic and metal contamination on paper-recycling conveyors and queues uncertain images for review.
+</td>
+</tr>
+</table>
 
-### [Fraud Risk Scoring](https://github.com/professor3333/fraud-risk-scoring)
-<sup>Tabular ML &nbsp;·&nbsp; calibration &nbsp;·&nbsp; <a href="https://fraud-risk-scoring-m1fp.onrender.com"><b>Live dashboard</b></a></sup>
+## How I work
 
-Scores card-not-present transactions with a calibrated fraud probability and picks approve, review or block within an analyst team's daily review budget. It reaches **0.907 ROC-AUC** on a held-out later month, at **43% lower cost** than approving everything.
-
-<sub><code>XGBoost</code> <code>scikit-learn</code> <code>SHAP</code> <code>FastAPI</code> <code>MLflow</code></sub>
-
-### [WildInbox](https://github.com/professor3333/wildinbox)
-<sup>Computer vision &nbsp;·&nbsp; image classification &nbsp;·&nbsp; human-in-the-loop</sup>
-
-A review inbox for trail-camera photos that groups shots into capture events and suggests a species for each. Grouping alone cuts the review queue by **61.4%**, and a fine-tuned EfficientNet-B0 scores **0.447 macro-F1 on nine unseen cameras**, against 0.285 for the frozen baseline.
-
-<sub><code>PyTorch</code> <code>FastAPI</code> <code>Streamlit</code> <code>PostgreSQL</code> <code>Redis</code> <code>AWS</code></sub>
-
-### [PassageWatch](https://github.com/professor3333/passagewatch)
-<sup>Computer vision &nbsp;·&nbsp; detection and tracking &nbsp;·&nbsp; sonar video</sup>
-
-Counts fish moving upstream and downstream in sonar video and keeps the evidence so a technician can check every count. It reaches **0.213 count error (nMAE)** across four unseen locations, against 0.388 for a tuned classical baseline.
-
-<sub><code>PyTorch</code> <code>YOLOX</code> <code>OpenCV</code> <code>ONNX Runtime</code> <code>FastAPI</code></sub>
-
-### [Shelf Life](https://github.com/professor3333/shelf-life)
-<sup>Tabular ML &nbsp;·&nbsp; self-collected data &nbsp;·&nbsp; <a href="https://shelf-life-2l8tanmdatboms9mhxh3rj.streamlit.app/"><b>Live app</b></a></sup>
-
-Predicts which job postings will be taken down within seven days, trained on a panel I scraped from seven job boards. On held-out days, **75% of its daily shortlist were real removals**, 6.8 times the hit rate of reading the board unaided.
-
-<sub><code>scikit-learn</code> <code>XGBoost</code> <code>FastAPI</code> <code>Streamlit</code> <code>MLflow</code></sub>
-
-### [BeltWatch](https://github.com/professor3333/beltwatch)
-<sup>Computer vision &nbsp;·&nbsp; semantic segmentation &nbsp;·&nbsp; in development</sup>
-
-Segments cardboard, plastic and metal contamination on paper-recycling conveyor lines and queues uncertain images for review. SegFormer-B0 reaches **0.336 foreground macro IoU**, against 0.152 for a tuned random forest.
-
-<sub><code>PyTorch</code> <code>SegFormer</code> <code>DVC</code> <code>MLflow</code> <code>FastAPI</code></sub>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/workflow-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/workflow-light.svg">
+  <img src="assets/workflow-dark.svg" width="100%" alt="Five steps: data, train a simple baseline then the real model, test on unseen data, ship an API with a live demo, and send uncertain cases to a person. Corrections feed the next training run.">
+</picture>
 
 ## Toolbox
 
