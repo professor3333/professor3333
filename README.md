@@ -6,7 +6,7 @@
 
 I build machine learning systems from data pipeline to deployed API, then test them on data they have never seen. When a model misses its target, the README says so.
 
-<sub>B.E. Software Engineering, Nepal College of Information Technology, 2026 &nbsp;·&nbsp; Kathmandu, Nepal</sub>
+<sub>Bachelor of Engineering "Software Engineering", Nepal College of Information Technology, 2026 &nbsp;·&nbsp; Kathmandu, Nepal</sub>
 
 **Open to Machine Learning Engineer and Applied ML Engineer roles, remote or on-site.**
 
